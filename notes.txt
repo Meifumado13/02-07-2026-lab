@@ -1,0 +1,15 @@
+# create new github repo from CLI locally
+
+echo "# 02-07-2026-lab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Meifumado13/02-07-2026-lab.git
+git push -u origin main
+
+# push an existing repository from CLI
+
+git remote add origin https://github.com/Meifumado13/02-07-2026-lab.git
+git branch -M main
+git push -u origin main
